@@ -1,0 +1,22 @@
+p {
+  font-size: 20px;
+  font-weight: 500;
+}
+h1 {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: armenian;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
