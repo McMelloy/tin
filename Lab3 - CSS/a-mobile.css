@@ -1,0 +1,16 @@
+.container {
+  flex-direction: column-reverse;
+}
+
+.container .text-section {
+  flex: 1;
+  flex-direction: column;
+
+  border-radius: 0%;
+
+  margin-bottom: 20px;
+}
+
+.container .text-section p {
+  margin-bottom: 30px;
+}
