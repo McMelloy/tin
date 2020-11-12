@@ -1,0 +1,16 @@
+.container {
+  grid-template-columns: auto;
+}
+
+.container .text-section {
+  grid-row-start: 1;
+  grid-template-columns: auto;
+
+  border-radius: 0%;
+
+  margin-bottom: 20px;
+}
+
+.container .text-section p {
+  margin-bottom: 30px;
+}
