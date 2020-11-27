@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A</title>
+    <script src="a.js"></script> 
+</head>
+<body>
+    <p>
+        <label>Fahrenheit: </label>
+        <input id="inputFahrenheit" type="number" placeholder="Fahrenheit"
+        oninput="FahrenheitToCelsius(this.value)"
+        onchange="FahrenheitToCelsius(this.value)">
+    </p>
+    <p>
+        <label>Celsius: </label>
+        <input id="inputCelsius" type="number" placeholder="Celsius"
+        oninput="CelsiusToFahrenheit(this.value)"
+        onchange="CelsiusToFahrenheit(this.value)">
+    </p>
+</body>
+</html>
