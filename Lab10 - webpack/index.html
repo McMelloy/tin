@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Converter</title>
+    <script src="./dist/main.js"></script>
+  </head>
+  <body>
+    <p>
+      <label>Fahrenheit</label>
+      <input id="inputFahrenheit" type="float" placeholder="Fahrenheit"
+      oninput="FahrenheitConverter(this.value)"
+      onchange="FahrenheitConverter(this.value)">
+    </p>
+    <p>
+      <label>Celsius</label>
+      <input id="inputCelsius" type="float" placeholder="Celsius"
+      oninput="CelsiusConverter(this.value)"
+      onchange="CelsiusConverter(this.value)">
+    </p>
+    <p>
+      <label>Kelvin</label>
+      <input id="inputKelvin" type="float" placeholder="Kelvin"
+      oninput="KelvinConverter(this.value)"
+      onchange="KelvinConverter(this.value)">
+    </p>
+    <br>
+    <br>
+    <br>
+    <p>
+      <label>Miles</label>
+      <input id="inputMiles" type="float" placeholder="Miles"
+      oninput="MilesConverter(this.value)"
+      onchange="MilesConverter(this.value)">
+    </p>
+    <p>
+      <label>Kilometers</label>
+      <input id="inputKilometers" type="float" placeholder="Kilometers"
+      oninput="KilometersConverter(this.value)"
+      onchange="KilometersConverter(this.value)">
+    </p>
+  </body>
+</html>
